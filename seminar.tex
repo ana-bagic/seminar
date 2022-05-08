@@ -1,0 +1,41 @@
+\documentclass[times, utf8, seminar]{fer}
+\usepackage{booktabs}
+
+\begin{document}
+
+\title{Aplikacija za pomoć pri učenju sviranja klavira}
+
+\author{Ana Bagić}
+
+\voditelj{Marko Čupić}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{Uvod}
+Danas je učenje sviranja raznih instrumenata puno dostupnije nego prije popularizacije Interneta. Veliku ulogu u tome imale su video streaming platforme, posebice YouTube, gdje je dostupno jako puno besplatnih video-materijala koji na razne načine pomažu zainteresiranima u svladavanju sviranja instrumenata po želji. Osim videozapisa, vrlo su popularne i aplikacije koje kroz kraće lekcije uče korisnike sve od osnova poput ljestvica, do zahtjevnijih pjesama. Daleko najpopularniji instrument na tim platformama je klavir.\\
+
+U okviru završnog rada napravila sam aplikaciju koja na temelju videozapisa generira notni zapis. U videozapisu se okomitim padajućim linijama prikazuju note koje se trebaju svirati u tom vremenskom intervalu. Analizom slika (engl. \textit{frames}) iz videozapisa određivala sam pozicije i duljine tih linija i na temelju njih gradila notni zapis. Za bilježenje notnog zapisa koristila sam MusicXML format koji je široko korišten i kojega podržava većina aplikacija za uređivanje, stvaranje ili reproduciranje glazbe.\\
+
+U ovome radu postaviti ću smjernice za buduću izradu projekta i diplomskog rada. U dogovoru s mentorom, odlučila sam da ću u diplomskom radu poboljšati i nadograditi svoj završni rad. Kroz ovaj seminar, istražiti ću moguće nadogradnje postojećeg programskog rješenja završnog rada, te izraditi nove funkcionalnosti u obliku aplikacije za pomoć pri učenju sviranja klavira uz praćenje korisnika. Za razliku od većine postojećih, ovo će biti besplatna aplikacija otvorenog koda (engl. \textit{open-source}). Zbog nekih mogućnosti koje nudi operacijski sustav Linux, za početak ću implementaciju raditi na njega, te kasnije proširiti na Windows i MacOS ako budem mogla.
+
+\chapter{Opis problema}
+Kroz ovaj seminar istražiti ću dva problema. Prvi će biti kako mogu poboljšati implementaciju generiranja notnog zapisa na temelju videozapisa sviranja klavira koju sam napravila u okviru završnog rada. Proučiti ću mogu li koristiti neke drugačije tehnologije i pristupe nego što sam do sada koristila kako bih povećala točnost i brzinu algoritma. Drugi problem biti će kako napraviti aplikaciju koja se preko računala može povezati na klavijaturu i u stvarnom vremenu pratiti sviranje korisnika. Aplikacija će moći prikazivati korisniku što treba svirati i dati mu povratnu informaciju o njegovom uspjehu. Ova dva dijela spojiti će se u jednu aplikaciju kako bi korisnik mogao unijeti videozapis s pjesmom koju želi naučiti svirati, te zatim dobiti notni zapis pjesme i mogućnost učenja sviranja kroz aplikaciju.
+
+\section{Generiranje notnog zapisa na temelju videozapisa}
+Format (izgled) videozapisa koji se može koristiti za generaciju notnog zapisa
+
+\chapter{Prijedlog implementacije}
+impl
+
+\chapter{Zaključak}
+Zaključak.
+
+\bibliography{literatura}
+\bibliographystyle{fer}
+
+\chapter{Sažetak}
+Sažetak.
+
+\end{document}
